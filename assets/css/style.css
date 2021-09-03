@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+::selection {
+    background-color: #9DF25C;
+    color: #FFF;
+}
+
+html {
+    font-size: 68%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+    height: 100vh;
+    background-image: url(/img/bm.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.left-side a h1{
+    font-size: 40px;
+    color: #7bbb4b;
+    border-radius: .4rem;
+    font-weight: 800;
+}
+
+
+.left-side a h1 span {
+    padding: 9px;
+    color: #3EC75E;
+    border-radius:0 .4rem .4rem 0;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul a {
+    font-size: 22px;
+    margin: 0 8px 0 8px;
+    padding: 8px 15px;
+    color: #222;
+    font-weight: 800;
+    letter-spacing: 3px;
+    border-bottom: .5rem solid transparent;
+    transition: all .4s ease;
+}
+
+nav ul a:hover {
+    border-bottom: .5rem solid #BC918B;
+}
+
+.banner-info {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff18;
+    padding: 90px;
+}
+
+.banner-info h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8%;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.banner-info p {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #222;
+    border: .1rem solid rgb(19, 16, 31);
+    padding: 8px 10px;
+    text-transform:uppercase;
+    transition: all .4s ease;
+}
+
+.btn:hover {
+    background-color: #BC918B;
+    color: #FFF;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+}
+
+.bx-menu {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #222;
+}
+
+section {
+    height: 100vh;
+
+}
+
+.green {
+    background-color: #9df25c23;
+    color: #222;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+}
